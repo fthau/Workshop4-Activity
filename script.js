@@ -48,3 +48,6 @@ clearBtn.addEventListener("click", () => {
 });
 
 // ── TASKS: code below this line ────────────────────────────
+nameInput.addEventListener("input", () => {
+  output.textContent = nameInput.value.length;
+});
