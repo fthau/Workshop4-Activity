@@ -51,3 +51,7 @@ clearBtn.addEventListener("click", () => {
 nameInput.addEventListener("input", () => {
   output.textContent = nameInput.value.length;
 });
+
+toggleThemeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
